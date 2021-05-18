@@ -300,7 +300,7 @@
                     <showWarnings>true</showWarnings>
                 </configuration>
             </plugin>
-           <!--  ====added by myself-venky  -->
+           <!-- venky -->
     <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
