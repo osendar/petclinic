@@ -300,13 +300,14 @@
                     <showWarnings>true</showWarnings>
                 </configuration>
             </plugin>
-           <!--  #====added by myself-venky  -->
+           <!--  ====added by myself-venky  -->
     <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-10-119-0-157.ec2.internal-snapshots</name>
         <url>http://18.207.138.251:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
+        </distributionManagement>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -463,5 +464,4 @@
         </profile>
    </profiles>
     <url>demopetclinic</url>
-  </distributionManagement>
-</project>
+  </project>
