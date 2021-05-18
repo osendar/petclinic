@@ -300,15 +300,7 @@
                     <showWarnings>true</showWarnings>
                 </configuration>
             </plugin>
-           <!-- venky -->
-    <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-10-119-0-157.ec2.internal-snapshots</name>
-        <url>http://18.207.138.251:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-        </distributionManagement>
-            <plugin>
+                       <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.13</version>
